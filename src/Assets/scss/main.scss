@@ -1039,3 +1039,15 @@ a {
     padding-left: 20px;
   }
 }
+
+.registration-form{
+    .content-wrapper{
+        margin: 0 auto !important;
+    }
+}
+
+li.timeline-steps__step.active::after{
+    top: -5px !important;
+    height: 1.2rem !important;
+    width: 1.2rem !important;
+}
